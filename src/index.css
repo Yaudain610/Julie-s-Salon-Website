@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-gold-400: #E5C07B;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #C5A880;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #0b0b0c;
+  color: #ededed;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-serif);
+}

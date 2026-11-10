@@ -1,0 +1,6 @@
+{
+  "name": "Julie's Salon - Luxury Haircuts & Balayage",
+  "description": "Modern dark-themed website for Julie's Salon in Greensboro, NC featuring custom hair coloring, balayage highlights, Olaplex treatments, and seamless dual booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
